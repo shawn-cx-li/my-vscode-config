@@ -1,0 +1,16 @@
+DotJoshJohnson.xml
+eamodio.gitlens
+esbenp.prettier-vscode
+eserozvataf.one-dark-pro-monokai-darker
+GitHub.vscode-pull-request-github
+golang.go
+humao.rest-client
+mikestead.dotenv
+monokai.theme-monokai-pro-vscode
+ms-azuretools.vscode-docker
+ms-vscode.makefile-tools
+PKief.material-icon-theme
+streetsidesoftware.code-spell-checker
+sysoev.vscode-open-in-github
+wayou.vscode-todo-highlight
+zhuangtongfa.material-theme

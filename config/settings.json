@@ -1,0 +1,71 @@
+{
+  /*
+   * ESlint
+   */
+  "javascript.referencesCodeLens.enabled": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  /*
+   * TSlint
+   */
+  "typescript.referencesCodeLens.enabled": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.watcherExclude": {
+    "**/compiled/*/**": true,
+    "**/components/common/Icon/*": true,
+    "**/public/*/**": true
+  },
+  /*
+   * Golang
+   */
+  "go.formatTool": "goreturns",
+  "go.useLanguageServer": true,
+  "[go]": {
+    "editor.insertSpaces": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    },
+    "editor.tabSize": 2
+  },
+  /*
+   * Common
+   */
+  "editor.tabSize": 2,
+  "editor.codeLens": true,
+  "git.enableCommitSigning": true,
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "workbench.iconTheme": "material-icon-theme",
+  "window.restoreWindows": "all",
+  "editor.fontSize": 18,
+  "bracket-pair-colorizer-2.excludedLanguages": ["go"],
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": false
+  },
+  "workbench.editor.showTabs": true,
+  "editor.renderWhitespace": "none",
+  "editor.bracketPairColorization.enabled": true,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "editor.accessibilitySupport": "off",
+  "git.enableSmartCommit": true,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "window.zoomLevel": -1,
+  "workbench.colorTheme": "One Dark Pro Monokai Darker"
+}
