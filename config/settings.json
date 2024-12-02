@@ -2,7 +2,7 @@
   /*
    * ESlint
    */
-  "javascript.referencesCodeLens.enabled": false,
+  "javascript.referencesCodeLens.enabled": true,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.tabSize": 2
@@ -11,6 +11,7 @@
    * TSlint
    */
   "typescript.referencesCodeLens.enabled": true,
+  "typescript.preferences.importModuleSpecifier": "relative",
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.tabSize": 2
@@ -27,15 +28,28 @@
    * Golang
    */
   "go.formatTool": "goreturns",
-  "go.useLanguageServer": true,
+  // "go.goroot": "/opt/homebrew/opt/go/libexec",
+  // "go.useLanguageServer": true,
   "[go]": {
     "editor.insertSpaces": false,
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
-      "source.organizeImports": true
+      "source.organizeImports": "explicit"
     },
     "editor.tabSize": 2
   },
+
+  /*
+   * Solidity
+   */
+  "solidity.compileUsingRemoteVersion": "v0.8.12",
+  "solidity.packageDefaultDependenciesDirectory": "./ethereum/node_modules",
+
+  /*
+   * Python
+   */
+  "python.defaultInterpreterPath": "/opt/homebrew/bin",
+
   /*
    * Common
    */
@@ -46,7 +60,7 @@
   "terminal.integrated.shell.osx": "/bin/zsh",
   "workbench.iconTheme": "material-icon-theme",
   "window.restoreWindows": "all",
-  "editor.fontSize": 18,
+  "editor.fontSize": 16,
   "bracket-pair-colorizer-2.excludedLanguages": ["go"],
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -55,9 +69,9 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": false
+    "source.fixAll.eslint": "never"
   },
-  "workbench.editor.showTabs": true,
+  "workbench.editor.showTabs": "multiple",
   "editor.renderWhitespace": "none",
   "editor.bracketPairColorization.enabled": true,
   "terminal.integrated.env.osx": {
@@ -66,6 +80,12 @@
   "editor.accessibilitySupport": "off",
   "git.enableSmartCommit": true,
   "typescript.updateImportsOnFileMove.enabled": "never",
+  "workbench.colorTheme": "One Dark Pro Monokai Darker",
+  "go.toolsManagement.autoUpdate": true,
+  "editor.minimap.renderCharacters": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.inlineSuggest.enabled": true,
+  "circleci.hostUrl": "",
   "window.zoomLevel": -1,
-  "workbench.colorTheme": "One Dark Pro Monokai Darker"
+  "diffEditor.ignoreTrimWhitespace": false
 }
